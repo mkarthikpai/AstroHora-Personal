@@ -1,1 +1,19 @@
-.app-shell{min-height:100vh;display:flex;flex-direction:column}.page-content{flex:1;animation:pageIn .35s ease both}@keyframes pageIn{from{opacity:.5;transform:translateY(5px)}to{opacity:1;transform:translateY(0)}}
+.app-shell {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.page-content {
+  flex: 1;
+  animation: pageIn 0.35s ease both;
+}
+@keyframes pageIn {
+  from {
+    opacity: 0.5;
+    transform: translateY(5px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

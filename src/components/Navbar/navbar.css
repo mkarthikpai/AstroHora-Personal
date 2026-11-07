@@ -1,1 +1,132 @@
-.site-header{height:78px;position:fixed;inset:0 0 auto;z-index:20;background:rgba(251,249,246,.93);backdrop-filter:blur(16px);border-bottom:1px solid rgba(80,67,105,.1)}.nav-wrap{width:min(1240px,calc(100% - 48px));height:100%;margin:auto;display:flex;align-items:center;justify-content:space-between;gap:24px}.brand{display:inline-flex;align-items:center;gap:10px;font-family:var(--serif);font-size:23px;font-weight:700;line-height:1;color:var(--ink);white-space:nowrap}.brand-mark{width:36px;height:36px;border-radius:50%;display:grid;place-items:center;color:#fff;background:var(--purple-dark);font-family:serif;font-size:23px}.brand-accent{color:var(--purple)}.brand small{display:block;font:700 8px 'DM Sans',sans-serif;letter-spacing:.18em;color:#9892a4;margin-top:5px}.nav-links{display:flex;align-items:center;gap:7px}.nav-link{font-size:12px;font-weight:600;color:#676579;padding:11px 13px;border-radius:6px;transition:background .2s,color .2s}.nav-link:hover,.nav-link.active{background:#efebf5;color:var(--purple-dark)}.nav-cta{background:var(--purple-dark);color:#fff;padding:13px 17px;border-radius:6px;font-size:12px;font-weight:700;margin-left:8px;display:flex;gap:12px}.nav-cta:hover{background:#3e355b}.menu-toggle{display:none;border:1px solid var(--line);background:#fff;border-radius:6px;width:42px;height:42px;color:var(--ink);font-size:20px}@media(max-width:760px){.nav-wrap{width:calc(100% - 32px)}.brand{font-size:21px}.menu-toggle{display:block}.nav-links{display:none;position:absolute;top:77px;left:0;right:0;padding:15px 16px 20px;background:var(--cream);border-bottom:1px solid var(--line);box-shadow:0 15px 25px #25263c12;align-items:stretch;flex-direction:column;gap:4px}.nav-links.is-open{display:flex}.nav-link{padding:13px}.nav-cta{justify-content:center;margin:7px 0 0;padding:14px}}
+.site-header {
+  height: 78px;
+  position: fixed;
+  inset: 0 0 auto;
+  z-index: 20;
+  background: rgba(251, 249, 246, 0.93);
+  backdrop-filter: blur(16px);
+  border-bottom: 1px solid rgba(80, 67, 105, 0.1);
+}
+.nav-wrap {
+  width: min(1240px, calc(100% - 48px));
+  height: 100%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+}
+.brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  font-family: var(--serif);
+  font-size: 23px;
+  font-weight: 700;
+  line-height: 1;
+  color: var(--ink);
+  white-space: nowrap;
+}
+.brand-mark {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  color: #fff;
+  background: var(--purple-dark);
+  font-family: serif;
+  font-size: 23px;
+}
+.brand-accent {
+  color: var(--purple);
+}
+.brand small {
+  display: block;
+  font:
+    700 8px "DM Sans",
+    sans-serif;
+  letter-spacing: 0.18em;
+  color: #9892a4;
+  margin-top: 5px;
+}
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+.nav-link {
+  font-size: 12px;
+  font-weight: 600;
+  color: #676579;
+  padding: 11px 13px;
+  border-radius: 6px;
+  transition:
+    background 0.2s,
+    color 0.2s;
+}
+.nav-link:hover,
+.nav-link.active {
+  background: #efebf5;
+  color: var(--purple-dark);
+}
+.nav-cta {
+  background: var(--purple-dark);
+  color: #fff;
+  padding: 13px 17px;
+  border-radius: 6px;
+  font-size: 12px;
+  font-weight: 700;
+  margin-left: 8px;
+  display: flex;
+  gap: 12px;
+}
+.nav-cta:hover {
+  background: #3e355b;
+}
+.menu-toggle {
+  display: none;
+  border: 1px solid var(--line);
+  background: #fff;
+  border-radius: 6px;
+  width: 42px;
+  height: 42px;
+  color: var(--ink);
+  font-size: 20px;
+}
+@media (max-width: 760px) {
+  .nav-wrap {
+    width: calc(100% - 32px);
+  }
+  .brand {
+    font-size: 21px;
+  }
+  .menu-toggle {
+    display: block;
+  }
+  .nav-links {
+    display: none;
+    position: absolute;
+    top: 77px;
+    left: 0;
+    right: 0;
+    padding: 15px 16px 20px;
+    background: var(--cream);
+    border-bottom: 1px solid var(--line);
+    box-shadow: 0 15px 25px #25263c12;
+    align-items: stretch;
+    flex-direction: column;
+    gap: 4px;
+  }
+  .nav-links.is-open {
+    display: flex;
+  }
+  .nav-link {
+    padding: 13px;
+  }
+  .nav-cta {
+    justify-content: center;
+    margin: 7px 0 0;
+    padding: 14px;
+  }
+}

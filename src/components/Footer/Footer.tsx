@@ -1,0 +1,3 @@
+import { Link } from 'react-router-dom';
+import './footer.css';
+export default function Footer() { return <footer className="site-footer"><div className="footer-main"><Link to="/" className="brand footer-brand"><span className="brand-mark">✦</span><span>Astro<span className="brand-accent">Hora</span><small>YOUR COSMIC COMPASS</small></span></Link><p>A little cosmic perspective for your everyday life.</p><div className="footer-links"><Link to="/horoscope">Horoscope</Link><Link to="/zodiac-signs">Zodiac signs</Link><Link to="/about">About</Link></div></div><div className="footer-bottom"><span>© {new Date().getFullYear()} AstroHora</span><span>For reflection and entertainment — not a prediction of certainty.</span></div></footer>; }
